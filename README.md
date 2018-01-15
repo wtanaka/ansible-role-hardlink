@@ -18,6 +18,17 @@ Example Playbook
       roles:
          - wtanaka.hardlink
 
+### `hardlink_should_shortcircuit`
+
+Default: True
+
+when True, the role short-circuits itself if hardlink is already installed
+
+### All variables
+
+The full set of configuration options available are visible in
+[defaults/main.yml](defaults/main.yml)
+
 License
 -------
 
